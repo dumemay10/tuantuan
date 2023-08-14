@@ -55,7 +55,7 @@ $d = date("d-m");
 
 
 
-$key_phi = file_get_contents("https://raw.githubusercontent.com/dumemayy/concac/main/key.txt"); 
+$key_phi = file_get_contents("https://raw.githubusercontent.com/dumemay10/tuantuan/main/key.txt"); 
 
 
 
