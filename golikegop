@@ -63,7 +63,7 @@ echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;95mYoutube : Phan Anh Tuấ
 echo $trang."━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
 
 echo $van.$luc." Nhập Số ".$do."[".$trang."1".$do."]".$luc." Để Vào Tool Free ".$do."[".$vang."Vượt Link".$do."] \n";
-echo $van.$luc." Nhập Số ".$do."[".$trang."2".$do."]".$luc." Để Vào Tool Phí ".$do."[".$vang."Key Phí".$do."] \n";
+echo $van.$luc." Nhập Số ".$do."[".$trang."2".$do."]".$luc." Để Vào Tool Phí ".$do."[".$vang."Tạm Đóng".$do."] \n";
 
 echo $trang."━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
 
@@ -74,9 +74,9 @@ $ch = trim(fgets(STDIN));
 while(true){
 
  if ( $ch == 1 ){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/keyfree'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/keyfree'));
 }else if ( $ch == 2){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/keyphi'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/keyphi'));
 }else{
 	
 	echo $van." Lựa Chọn Không Hợp Lệ \n";
