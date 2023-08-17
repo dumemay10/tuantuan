@@ -159,7 +159,7 @@ $loi = post("https://gateway.golike.net/api/advertising/publishers/tiktok/skip-j
 $p = $red."Báo Cáo lỗi Thành công           \r";
 cc($p);
 continue;}else{}
-if($st=="400"){echo "Đang Load Lại Job            \r";sleep(1);continue;}else{echo "Đang Nhận Job $ty | $uid          \r";}
+if($st=="600"){echo "Đang Load Lại Job            \r";sleep(1);continue;}else{echo "Đang Nhận Job $ty | $uid          \r";}
 system("termux-open $now");
 for($time=$dl;$time>-1;$time--){
 echo $yellow."Vui lòng chờ $time để hoàn thành job \r";sleep(1);}
