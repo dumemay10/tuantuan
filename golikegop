@@ -53,7 +53,7 @@ $today = date("d-m-y");
 $d = date("d-m");
 
 
-
+$key_phi = file_get_contents("https://raw.githubusercontent.com/dumemay10/tuantuan/main/key.txt"); 
 $today = date("d-m-y");
 $key = "kimochi" . substr(md5($today), 0, 8);
 
@@ -115,7 +115,7 @@ echo $vang." Key Chính Xác  \n";
 
 sleep(1);
 
-}else if ( $pass == "deccailon" ){
+}else if ( $pass == $key_phi){
 
 echo $vang." Key Admin \n";
 
