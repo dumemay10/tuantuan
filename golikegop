@@ -170,21 +170,21 @@ $ch = trim(fgets(STDIN));
 while(true){
 
  if ( $ch == 1 ){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/golike'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/golike'));
 }else if ( $ch == 1.2){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/gonow'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/gonow'));
 }else if ( $ch == 1.3){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/goliketw'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/goliketw'));
 }else if ( $ch == 2){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/golikeig'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/golikeig'));
 }else if ( $ch == 3){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/share'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/share'));
 }else if ( $ch == 4){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/tdstt'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/tdstt'));
 }else if ( $ch == 5){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/tdsig'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/tdsig'));
 }else if ( $ch == 6){
-	eval(file_get_contents('https://raw.githubusercontent.com/dumemayy/concac/main/tdspr5'));
+	eval(file_get_contents('https://raw.githubusercontent.com/dumemay10/tuantuan/main/tdspr5'));
 }else{
 	
 	echo $van." Lựa Chọn Không Hợp Lệ \n";
