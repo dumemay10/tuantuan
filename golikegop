@@ -115,18 +115,13 @@ echo $vang." Key Chính Xác  \n";
 
 sleep(1);
 
-}else if ( $pass == $key_phi){
+}else if ( $pass == "daubuoi" ){
 
 echo $vang." Key Admin \n";
 
 sleep(1);
-
-}else if ( $pass == "ditmemay" ){
-
-echo $vang." Key Phí \n";
-
-echo $vang." Key Chính Xác  \n";
-
+}else if ( $check = explode('|',explode($pass,$key_phi)[1])[0]){
+echo $vang." Key Phí  \n";
 sleep(2);
 
 
