@@ -58,7 +58,6 @@ $thang = date("m");
 $nam = date("Y"); 
 
 $ip = file_get_contents('http://kiemtraip.com/raw.php');
-date_default_timezone_set("Asia/Ho_Chi_Minh");
 
 $key_phi = file_get_contents("https://raw.githubusercontent.com/dumemay10/tuantuan/main/key.txt"); 
 $today = date("d-m-y");
