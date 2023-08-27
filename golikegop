@@ -61,7 +61,7 @@ $ip = file_get_contents('http://kiemtraip.com/raw.php');
 
 $key_phi = file_get_contents("https://raw.githubusercontent.com/dumemay10/tuantuan/main/key.txt"); 
 $today = date("d-m-y");
-$key = "kimochi" . substr(md5($today.$ip), 0, 8);
+$key = "kimochi" . substr(md5($today), 0, 8);
 
 $url_key = "https://cardvip.site/key/getkey.php?key=" . $key;
 
