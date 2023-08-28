@@ -109,15 +109,15 @@ echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mLink Key \033[1;36m$ngay
 
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
 
-if(file_exists("keyngay.txt")!=true){
+if(file_exists("keyngay.php")!=true){
 $keyy=readline("$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;92mNhập Key Hôm Nay : ");
-$file=fopen("keyngay.txt","w");
+$file=fopen("keyngay.php","w");
 fwrite($file,"<?php\n");
 fwrite($file,"$"."pass='$keyy';\n");
 fclose($file);
 }
-include("keyngay.txt");
-echo "Đã lấy Key từ file keyngay.txt\n";
+include("keyngay.php");
+echo "Đã lấy Key từ file keyngay.php\n";
 sleep(1);
 
 
@@ -138,7 +138,7 @@ sleep(2);
 
 
 
-}else{echo $do." Key Đã Sai Hoặc Hết Hạn Vui Lòng Xóa File keyngay.txt Để Nhập Key Mới\n";
+}else{echo $do." Key Đã Sai Hoặc Hết Hạn Vui Lòng Xóa File keyngay.php Để Nhập Key Mới\n";
 
 
 
