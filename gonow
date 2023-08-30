@@ -62,8 +62,7 @@ echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mBẢN QUYỀN: \033[1;34
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mZalo : \033[1;33m https://zalo.me/atuanprofile \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mBox Zalo : \033[1;33m https://zalo.me/g/ykntan866 \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mMb Bank : \033[1;33m 7010000467 \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mTelegram : \033[1;33m phananhtuannn \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mYoutube : \033[1;91m https://youtube.com/@atuan.\n";
+echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mNhóm Kiếm Tiền Free : \033[1;33m https://t.me/ttoolonline \n";
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
 if(file_exists("authorization.txt")!=true){
 $authorization=readline("Nhập Authorization : ");
@@ -83,8 +82,7 @@ echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mBẢN QUYỀN: \033[1;34
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mZalo : \033[1;33m https://zalo.me/atuanprofile \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mBox Zalo : \033[1;33m https://zalo.me/g/ykntan866 \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mMb Bank : \033[1;33m 7010000467 \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mTelegram : \033[1;33m phananhtuannn \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mYoutube : \033[1;91m https://youtube.com/@atuan.\n";
+echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mNhóm Kiếm Tiền Free : \033[1;33m https://t.me/ttoolonline \n";
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
 echo "$phucc \033[1;37m~[\033[1;31m+\033[1;37m] \033[1;32mNhập Authorization Không Hiện Ra Acc Để Chạy Là Do Sai Authorization, Vô Tệp Tin Xóa File authorization.txt Để Nhập Lại Authorization Khác \n";
 echo "$phucc \033[1;37m~[\033[1;31m+\033[1;37m] \033[1;33mHỗ Trợ Lấy Authorization :https://zalo.me/atuanprofile \n";
@@ -144,8 +142,7 @@ echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mBẢN QUYỀN: \033[1;34
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mZalo : \033[1;33m https://zalo.me/atuanprofile \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mBox Zalo : \033[1;33m https://zalo.me/g/ykntan866 \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mMb Bank : \033[1;33m 7010000467 \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mTelegram : \033[1;33m phananhtuannn \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mYoutube : \033[1;91m https://youtube.com/@atuan.\n";
+echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mNhóm Kiếm Tiền Free : \033[1;33m https://t.me/ttoolonline \n";
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
 echo $phucc.$green." ĐANG CHẠY TÀI KHOẢN : ".$cam.$ten.$do." | ".$green."ID : ".$cam.$id." \n";
 while(true){
