@@ -71,10 +71,7 @@ if ($api['status'] == 'success') {
   $link = $api['shortenedUrl'];
   $api1 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link), true);
   if ($api1['status'] == 'success') {
-    $link1 = $api1['shortenedUrl'];
-    $api2 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link1), true);
-    if ($api2['status'] == 'success') {
-      $link3 = $api2['shortenedUrl'];
+    $link3 = $api1['shortenedUrl'];
       echo $link3;
 }else{
       $link3 = $key;
@@ -82,7 +79,6 @@ if ($api['status'] == 'success') {
 
 	 }
   }
-}
 
 
 
