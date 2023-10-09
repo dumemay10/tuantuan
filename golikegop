@@ -65,24 +65,17 @@ $key = "kimochi" . substr(md5($today.$ip), 0, 8);
 
 $url_key = "https://cardvip.site/key/getkey.php?key=" . $key;
 
-$token = "cc6cf809-b6f1-4df3-b27b-768aa1fecab0";
-$token1 = "10b8e863-1f9a-4c5a-9ac3-be1ccc02b937";
-$api = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$url_key), true);
+$token = "63c689e66ee4dd7b2c230653";
+$api = json_decode(file_get_contents("https://link4m.co/api-shorten/v2?api=".$token."&url=".$url_key), true);
 if ($api['status'] == 'success') {
-  $link = $api['shortenedUrl'];
-  $api1 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link), true);
-  if ($api1['status'] == 'success') {
-    $link2 = $api1['shortenedUrl'];
-    $api2 = json_decode(file_get_contents("https://web1s.com/api?token=".$token1."&url=".$link2), true);
-  if ($api2['status'] == 'success') {
-    $link4 = $api2['shortenedUrl'];
+  $link4 = $api['shortenedUrl'];
       echo $link4;
 }else{
       $link4 = $key;
       
 
 	 }
-  }
+  
 
 
 
@@ -202,5 +195,5 @@ while(true){
 	exit;
 }
 
-}
+
 }
