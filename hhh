@@ -31,24 +31,19 @@ $key = "lqtoai" . substr(md5($today.$ip), 0, 8);
 
 $url_key = "https://dichvu.lyquangtoai.dev/lqtoai.php?key=" . $key;
 
-$token = "10b8e863-1f9a-4c5a-9ac3-be1ccc02b937";
-$api = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$url_key), true);
+$token = "63c689e66ee4dd7b2c230653";
+$api = json_decode(file_get_contents("https://link4m.co/api-shorten/v2?api=".$token."&url=".$url_key), true);
 if ($api['status'] == 'success') {
-  $link = $api['shortenedUrl'];
-  $api1 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link), true);
-  if ($api1['status'] == 'success') {
-    $link2 = $api1['shortenedUrl'];
-    $api2 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link2), true);
-  if ($api2['status'] == 'success') {
-    $link3 = $api2['shortenedUrl'];
+  $link3 = $api['shortenedUrl'];
+  
       echo $link3;
 }else{
       $link3 = $key;
       
 
-	 }
+	 
   }
-
+   
 
 
 system('clear');
@@ -282,11 +277,3 @@ cc($p);
 
 
 
-
-
-
-
-
-
-
-}
