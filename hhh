@@ -25,25 +25,31 @@ $nam = date("Y");
 
 $ip = file_get_contents('http://kiemtraip.com/raw.php');
 
-$key_phi = file_get_contents("https://raw.githubusercontent.com"); 
+$key_phi = file_get_contents("https://raw.githubusercontent.com/dumemay10/tuantuan/main/key.txt"); 
 $today = date("d-m-y");
-$key = "lqtoai" . substr(md5($today.$ip), 0, 8);
+$key = "kimochi" . substr(md5($today.$ip), 0, 8);
 
-$url_key = "https://dichvu.lyquangtoai.dev/lqtoai.php?key=" . $key;
+$url_key = "https://cardvip.site/key/getkey.php?key=" . $key;
 
-$token = "63c689e66ee4dd7b2c230653";
-$api = json_decode(file_get_contents("https://link4m.co/api-shorten/v2?api=".$token."&url=".$url_key), true);
+$token = "10b8e863-1f9a-4c5a-9ac3-be1ccc02b937";
+$token1 = "5904e05b-de8b-43cb-9287-cfed4fed3a2d";
+$api = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$url_key), true);
 if ($api['status'] == 'success') {
-  $link3 = $api['shortenedUrl'];
-  
-      echo $link3;
+  $link = $api['shortenedUrl'];
+  $api1 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link), true);
+  if ($api1['status'] == 'success') {
+    $link2 = $api1['shortenedUrl'];
+    $api2 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link2), true);
+  if ($api2['status'] == 'success') {
+    $link4 = $api2['shortenedUrl'];
+      echo $link4;
 }else{
-      $link3 = $key;
+      $link4 = $key;
       
 
-	 
+	 }
   }
-   
+
 
 
 system('clear');
@@ -60,7 +66,7 @@ echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mTrạng Thái Sever :  \
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mIP Của Bạn Là : $yellow $ip \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mCách Lấy Key Free: \033[1;97m https://youtu.be/qG_8VPBTfEU \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mLink Key \033[1;36m$ngay-\033[1;36m$thang-\033[1;36m$nam :$yellow $link3 \n";
+echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mLink Key \033[1;36m$ngay-\033[1;36m$thang-\033[1;36m$nam :$yellow $link4 \n";
 
 
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
@@ -276,4 +282,4 @@ cc($p);
 
 
 
-
+}
