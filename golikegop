@@ -67,22 +67,17 @@ $url_key = "https://cardvip.site/key/getkey.php?key=" . $key;
 
 $token = "cc6cf809-b6f1-4df3-b27b-768aa1fecab0";
 $token1 = "5904e05b-de8b-43cb-9287-cfed4fed3a2d";
-$api = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$url_key), true);
+$api = json_decode(file_get_contents("https://web1s.com/api?token=".$token1."&url=".$url_key), true);
 if ($api['status'] == 'success') {
   $link = $api['shortenedUrl'];
-  $api1 = json_decode(file_get_contents("https://web1s.com/api?token=".$token."&url=".$link), true);
-  if ($api1['status'] == 'success') {
-    $link2 = $api1['shortenedUrl'];
-    $api2 = json_decode(file_get_contents("https://web1s.com/api?token=".$token1."&url=".$link2), true);
-  if ($api2['status'] == 'success') {
-    $link4 = $api2['shortenedUrl'];
+    
       echo $link4;
 }else{
-      $link4 = $key;
+      $link = $key;
       
 
 	 }
-  }
+  
 
 
 
@@ -103,7 +98,7 @@ echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mTrạng Thái Sever :  \
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mIP Của Bạn Là : $yellow $ip \n";
 echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mCách Lấy Key Free: \033[1;97m https://youtu.be/qG_8VPBTfEU \n";
-echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mLink Key \033[1;36m$ngay-\033[1;36m$thang-\033[1;36m$nam :$yellow $link4 \n";
+echo "$van \033[1;97m~[\033[1;91m+\033[1;97m] \033[1;32mLink Key \033[1;36m$ngay-\033[1;36m$thang-\033[1;36m$nam :$yellow $link \n";
 
 
 echo $trang."- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
@@ -202,5 +197,4 @@ while(true){
 	exit;
 }
 
-}
 }
