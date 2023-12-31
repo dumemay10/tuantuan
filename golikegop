@@ -63,7 +63,7 @@ $key_phi = file_get_contents("https://raw.githubusercontent.com/dumemay10/tuantu
 $today = date("d-m-y");
 $key = "kimochi" . substr(md5($today.$ip), 0, 8);
 
-$url_key = "https://cardvip.site/key/getkey.php?key=" . $key;
+$url_key = "https://muckle-hoods.000webhostapp.com/key.php?key=" . $key;
 
 $token = "1170517d03e7cf565612a0d2e90cc4187ea4dae1";
 $api = json_decode(file_get_contents("https://123s.link/api?api=".$token."&url=".$url_key), true);
